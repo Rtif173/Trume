@@ -1,0 +1,21 @@
+{
+  "name": "1С Чат",
+  "description": "1С Чат",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/icons/icon16x16.png",
+    "48": "/icons/icon48x48.png",
+    "60": "/icons/icon60x60.png",
+    "128": "/icons/icon128x128.png"
+  },
+  "type": "certified",
+  "origin": "app://def6a78b-5e79-44e1-85fc-cc589c7939ea",
+  "permissions": {
+    "device-storage:sdcard":{
+      "access": "readwrite"
+     },
+    "push":{},
+    "desktop-notification":{},
+    "mobileconnection": {}
+  }
+}

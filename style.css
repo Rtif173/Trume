@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+#app{
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+br{
+  display: block;
+  margin: 1px 0;
+}
+.frame{
+  height: calc(100% - 30px);
+  background-color: #555;
+  color: #000;
+  overflow-y: scroll;
+}
+
+.bottomLine{
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #C4C4C4;
+}
+.bottom_item{
+  width: 33%;
+  padding: 0 5px;
+}
+.keyEnter{
+  text-align: center;
+  font-weight: bold;
+}
+.softRight{
+  text-align: right;
+}
+
+
+.task_list{
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+.task_list li{
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.active{
+  background-color: #39f !important;
+  color: #fff;
+}
+
+.accepted{
+  text-decoration: line-through;
+  color: #777;
+}
